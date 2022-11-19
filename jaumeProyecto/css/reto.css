@@ -1,0 +1,12 @@
+.reto{
+    text-align: center;
+    padding-block-start: 40px;
+    padding-block-end: 40px;
+}
+
+
+.reto-description{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}

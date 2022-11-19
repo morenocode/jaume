@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+ <header class="header">
+       <div class="wrapper">
+            <div class="header-content">
+              <img src="./images/logo.png" width="70" height="20" alt="logo">
+                 <nav class="menu" aria-label="main-navigation">
+                     <ul>
+                         <li>
+                           <a class="is-active" href="#main">Hola </a>
+                             </li>
+                                 <li>
+                                 <a href="#project">Proyectos</a>
+                             </li>
+                              <li>
+                           <a href="#contact">Hablemos</a>
+                       </li>
+                    </ul>
+                    </nav>
+                 <button class="button">Curriculum</button>
+            </div>
+        </div>
+    </header>
+
+    <div class="wrapper">
+        <section aria-label="main" class="hero" id="main">
+            <div class="hero-image">
+                <img src="./images/user.png" width="338" height="330" alt="">
+            </div>
+    
+           <div class="hero-description">
+            <h1>
+                <span>¡Hola a todos!</span>
+                <span>Soy MORENO</span>
+            </h1>
+            <p>
+                Frontend Developer que le encanta implementar diseños que inspiran y atraen a las personas.
+            </p>
+    
+            <div class="social">
+                <a class="button-icon" href="tel:980927556">
+                    <img src="./icons/icon-phone.svg"></a>
+            
+                <a class="button-icon" href="mail:moreno@gmail.com">
+                    <img src="./icons/icon-important_mail.svg"></a>
+            
+                <a class="button-icon" href="@moreno">
+                    <img src="./icons/icon-instagram.svg"></a>
+            
+                <a class="button-icon" href="none">
+                    <img src="./icons/icon-twitter_squared.svg"></a>
+            </div>
+            <a href="https://ahorita_lo_pongo.com" class="button">Descargar Curriculum</a>
+           </div>
+        </section>
+
+        <div class="reto">
+            <div class="reto-description">
+                <p style="font-size:150%;">A lo largo de mi carrera como Frontend, he tenido el privilegio de trabajar en proyectos retadores e increíbles</p>
+
+                <p style="font-size:90%;"><b>Aquí hay algunos que me gustaría compartir.</b></p>
+            </div> 
+            <img style="font-size:90%; display:block; margin:0 auto 0 auto" src="./images/flecha.png" alt="description" />
+        </div> 
+        
+                
+        <div class="project" id="project">
+            <div class="project-image">
+                <img src="./images/pantalla.png" alt="">
+    
+                 </div>
+             <div class="project-description">
+                <a class="tittle" target="_blank" href="https://leonidasesteban.com">LeonidasEsteban.com</a>
+                <p>Accede a más de 120 proyectos que te ayudarán a mejorar 
+                    tus habilidades como desarrollador Front-End.</p>
+
+                    <a target="_blank" href="https://github.com" class="button is-secondary">Ver Codigo</a>
+                    <a target="_blank" href="https://leonidasesteban.com" class="button">Ver Proyecto</a>
+            </div>
+        </div>
+
+        <div class="coment">
+            <div class="coment-image">
+                <img src="./images/coment.png" alt="">
+            </div>
+        </div>
+
+
+        <div class="project">
+            <div class="project-image">
+                <img src="./images/tablet.png" alt="">
+    
+                 </div>
+             <div class="project-description">
+                <a class="tittle" target="_blank" href="https://leonidasesteban.com">MARVOL</a>
+                <p>Es el sitio oficial de Marvol Entertainment. Explore películas, personajes, cómics, programas de televisión, videos y más oficiales de Marvol.</p>
+    
+                    <a target="_blank" href="https://github.com" class="button is-secondary">Ver Codigo</a>
+                    <a target="_blank" href="https://leonidasesteban.com" class="button">Ver Proyecto</a>
+            </div>
+        </div>
+
+        <div class="coment">
+            <div class="coment-image">
+                <img src="./images/coment2.png" alt="">
+            </div>
+        </div>
+    
+        <div class="project">
+            <div class="project-image">
+                <img src="./images/matrix.png" alt="">
+    
+                 </div>
+             <div class="project-description">
+                <a class="tittle" target="_blank" href="https://leonidasesteban.com">NETNET</a>
+                <p>Películas y series ilimitadas y mucho más.
+                    Disfruta donde quieras. Cancela cuando quieras.</p>
+    
+                    <a target="_blank" href="https://github.com" class="button is-secondary">Ver Codigo</a>
+                    <a target="_blank" href="https://leonidasesteban.com" class="button">Ver Proyecto</a>
+            </div>
+        </div>
+
+         <div class="coment">
+            <div class="coment-image">
+                <img src="./images/coment3.png" alt="">
+            </div>
+        </div>
+
+        <form id="form" action="" class="form">
+            <div class="form-content">
+                <h2 class="tittle">Hablemos</h2>
+                <p>Si está interesado en trabajar conmigo en su próximo proyecto, 
+                    no dude en ponerse en contacto conmigo.</p>
+                <label for="form-name">
+                    Nombre Completo
+                <input required name="name"  id="form-name" type="text" placeholder="Juan">
+                </label>
+    
+                <label for="form-name">
+                    Correo Electronico
+                <input required name="email"  id="form-name" type="email" placeholder="Juan@.com">
+                </label>
+    
+                <label for="form-name">
+                    Mensaje
+                <textarea required name="message" placeholder="Mensaje" id="form-message" cols="30" rows="7"></textarea>
+                </label>
+                <button class="button" type="submit">Enviar Mensaje</button>
+            </div>
+        </form>
+
+
+        <footer id="contact" class="footer">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="./images/logo.png" width="70" height="20" alt="logo muy bonito">
+                </div>
+
+                <div class="social">
+                    <a class="button-icon" href="tel:98092799563">
+                        <img src="./icons/icon-phone.svg"></a>
+                
+                    <a class="button-icon" href="mail:moreno@gmail.com">
+                        <img src="./icons/icon-important_mail.svg"></a>
+                
+                    <a class="button-icon" href="@moreno">
+                        <img src="./icons/icon-instagram.svg"></a>
+                
+                    <a class="button-icon" href="none">
+                        <img src="./icons/icon-twitter_squared.svg"></a>
+                </div>
+                <div class="footer-copyright">
+                    <p>
+                        Hecho por Bryan Moreno.
+                    </p>
+                    <p>
+                        Copyright 2022 - Todos los derechos reservados.
+                    </p>
+                </div>
+            </div>
+        </footer>
+
+        <script>
+            const $form = document.querySelector('#form')
+    
+            $form.addEventListener('submit, handleSubmit')
+    
+            function handleSubmit(event){
+                event.preventDefault()
+                const form = new FormData(this)
+                console.log(form.get('name'))
+            }
+        </script>
+
+    </div> 
+</body>
+</html>

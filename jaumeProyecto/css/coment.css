@@ -1,0 +1,27 @@
+.coment{
+    padding-block-start: 40px;
+    padding-block-end: 40px;
+}
+
+.coment-image img {
+    max-inline-size: 100%;
+}
+
+@media screen and (min-width: 768px){
+    .coment{
+        display: flex;
+        align-items: center;
+        padding-block-start: 80px;
+        padding-block-end: 80px;
+    }
+
+    .coment-description{
+        flex: 1;
+    }
+
+    .coment:nth-child(odd) .coment-image{
+        order: 2;
+        flex: 1;
+        text-align: center;
+    }
+}
